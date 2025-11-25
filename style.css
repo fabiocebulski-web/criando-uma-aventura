@@ -1,0 +1,68 @@
+
+body {
+    background-color: #1D4221;
+    color:white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.5rem;
+}
+
+button:hover{
+    background-color: #edf37d;
+    color: black;
+    border: solid 4px #64A712;
+    border-radius: 15px;
+}
+
+.passo{
+    display: none;
+}
+.ativo{
+    display: block;
+}
+main{
+    max-width: 90%;
+    text-align: center;
+}
+
+img{
+    max-width: 80%;
+    }
+
+.legenda{
+    text-align: center;
+    font-size: xx-small;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.abertura{
+    width: 90%;
+}
+
+.chat__gpt{
+    max-width: 50%;
+}
+footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.img-p0{
+    max-width: 40%;
+}
